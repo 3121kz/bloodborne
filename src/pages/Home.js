@@ -5,8 +5,8 @@ import "../styles/Home.css";
 
 function Home() {
   return (
-    <div className="home">
-      <div className="header" style={{ backgroundImage: `url(${Bg})` }}>
+    <div className="home" style={{ backgroundImage: `url(${Bg})` }}>
+      <div className="header">
         <h1>Bloodborne</h1>
         <p> The hunt begins </p>
         <Link to="/">
